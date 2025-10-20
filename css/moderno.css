@@ -208,6 +208,10 @@
             font-family: "LAUGHTER";
             box-shadow: 10px 5px 5px rgb(44, 42, 37);
         }
+        #contacto a{
+            text-decoration: none;
+            color: blue;
+        }
         .estilo input{
             width: 2.5cm;
             background-color: blueviolet;
