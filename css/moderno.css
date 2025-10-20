@@ -1,0 +1,248 @@
+        /* SELECTORE universal*/
+        * {
+            color: white;
+        }
+
+        /* SELECTORE de ELEMENTOS*/
+        html{
+            padding-left: 1.5cm;
+            font-size: larger;
+            background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-52339.jpg?semt=ais_hybrid&w=740&q=80");
+            background-size: 100%;
+        }
+        body{
+            border: 5px solid black;
+            border-radius: 10px;
+            padding: 1cm;
+        }
+        footer{
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        /*fuente de dafont.com*/
+        @font-face {
+            font-family: 'LAUGHTER';
+            src: url('./fonts/LAUGHTER.ttf') format('truetype');
+        }
+
+        /*SELECTORES DE CLASES */
+        .nombre{
+            text-align: center;
+            border: solid black 2px;
+            font-size: large;
+            height: 1.7cm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7cm;
+            font-family: "LAUGHTER";
+             background-color: rgb(141, 35, 211);
+             color: white;
+        }
+        .enlaces{
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .enlaces a{
+            border: solid black 2px;
+            border-radius: 10px;
+            background-color: rgb(141, 35, 211);
+            color: white;
+            text-decoration: none;
+            height: 1cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .perfil{
+            display: flex;
+            flex-direction: row;
+            padding: 2cm;
+        }
+        
+        .perfil p{
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .estilo{
+            display: flex;
+            justify-content: end;
+            padding-bottom: 0.5cm;
+        }
+
+        /*SELECTORES de ID*/
+        #Arriba{
+            display: flex;
+            height: 1cm;
+            width: 2.5cm;
+            border: solid black 2px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+            color: white;
+            margin: 1cm;
+        }
+       
+        /*SELECTORES Elementos hijos*/
+        #descripcion h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        .perfil img{
+            border-radius: 50%;
+        }
+        .perfil aside{
+            margin-left: 5cm;
+            border: 4px solid white;
+            border-radius: 7px;
+            padding: 1cm;
+        }
+        #EDUCATION h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #Idiomas h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #PRACTICAS h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #C.Tecnicas h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #C.PERSONALES h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #contacto h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            margin-top: 1cm;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(247, 246, 247);
+            color: rgb(181, 15, 197);
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        .estilo input{
+            width: 2.5cm;
+            background-color: blueviolet;
+            color: white;
+            font-size: large;
+            height: 1cm;
+            border-radius: 10px;
+
+        }
+
+        /*SELECTORES ::before*/
+        #EDUCATION h2:before{
+            content: "*";
+        }
+
+        /*SELECTORES ::after*/
+        #Arriba::after{
+            content: "↑";
+            padding-left: 0.1cm;
+        }
+
+        /*SELECTORES :hover*/
+        #Arriba:hover{
+            background-color:  white;
+            color: blueviolet;
+            transform: scale(1.15); 
+        }
+        .enlaces a:hover{
+            background-color:  white;
+            color: blueviolet;
+            transform: scale(1.15); 
+        }
+        .estilo input:hover{
+            background-color:  white;
+            color: blueviolet;
+            transform: scale(1.15); 
+        }
+        
