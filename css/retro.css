@@ -90,6 +90,7 @@
         background-color: var(--color-background);
         color: var(--color-letras);
         font-size: larger;
+        box-shadow: black 5px 5px 5px;
     }
     
 
