@@ -1,4 +1,7 @@
-    /*selectore universal*/
+   /*charset*/
+   @charset "UTF-8";
+
+   /*selectore universal*/
     * {
         color: black;
     }
@@ -82,6 +85,11 @@
         color: white;
         text-decoration: none;
         border-radius: 10px;
+    }
+    #estilos{
+        background-color: var(--color-background);
+        color: var(--color-letras);
+        font-size: larger;
     }
     
 

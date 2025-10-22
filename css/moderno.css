@@ -1,4 +1,7 @@
-        /* SELECTORE universal*/
+        /*charset*/
+        @charset "UTF-8";
+
+       /* SELECTORE universal*/
         * {
             color: white;
         }
