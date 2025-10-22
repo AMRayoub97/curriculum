@@ -61,6 +61,7 @@
             justify-content: center;
             align-items: center;
             padding: 10px;
+            box-shadow: rgb(200, 0, 255) 5px 5px 5px;
         }
         .enlaces a{
             text-decoration: none
@@ -300,7 +301,8 @@
         .enlaces strong:hover{
             background-color:  white;
             color: blueviolet;
-            transform: scale(1.15); 
+            transform: scale(1.15);
+            margin: 0cm 0.5cm
         }
         .estilo input:hover{
             background-color:  white;
