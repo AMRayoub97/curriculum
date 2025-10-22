@@ -3,12 +3,18 @@
         color: black;
     }
 
+    /*crear variables*/
+    :root{
+        --color-background: white;
+        --color-letras: black;
+    }
     /*selectores de elementos*/
     html {
-        background-color: white;
+        background-color: var(--color-background);
         padding-left: 3cm;
         padding-top: 2cm;
         padding-right: 3cm;
+        font-family: Arial, Helvetica, sans-serif;
     }
     header{
         display: flex;
@@ -47,7 +53,7 @@
         height: 1.5cm;
     }
     .nombre{
-        background-color: white;
+        background-color: var(--color-background);
         padding: 0.5cm 2cm 0.5cm;
         font-family: "plastic";
         font-size: larger;
@@ -81,15 +87,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(0, 0, 0);
-        color: white;
+        background-color: var(--color-background);
+        color: var(--color-letra);
         height: 2cm;
         width: 9cm;
         border-radius: 10px;
     }
     .enlaces a{
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: var(--color-background);
+        color: var(--color-letra);
         margin: 0.2cm;
         padding: 0.2cm;
         text-decoration: none;
@@ -97,5 +103,4 @@
         justify-content: center;
         align-items: center;
         border-radius: 4px;
-        font-family: Arial, Helvetica, sans-serif;
     }
