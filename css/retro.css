@@ -1,0 +1,88 @@
+    /*selectore universal*/
+    * {
+        color: black;
+    }
+
+    /*selectores de elementos*/
+    html {
+        background-color: white;
+        padding-left: 3cm;
+        padding-top: 2cm;
+        padding-right: 3cm;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        background-color: gray;
+        padding: 1cm;
+    }
+    footer{
+        background-color: gray;
+        padding-left: 1cm;
+        padding-top: 0.5cm;
+        padding-bottom: 1cm;
+    }
+
+    /*selectore de clase*/
+    .estilo{
+        display: flex;
+        justify-content: end;
+        padding-bottom: 0.5cm;
+    }
+    .FooterTitulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .enlaces{
+        display: flex;
+        height: 1.5cm;
+    }
+    
+
+    /*selectore de id*/
+    #Arriba{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5cm;
+        height: 1cm;
+        width: 2cm;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    
+
+    /*elementos de hijos*/
+    .estilo input{
+        height: 1cm;
+        width: 2cm;
+        background-color: gray;
+        color: white;
+        border-radius: 2px;
+    }
+    .FooterTitulo h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 2cm;
+        width: 9cm;
+        border-radius: 10px;
+    }
+    .enlaces a{
+        background-color: black;
+        color: white;
+        margin: 0.2cm;
+        padding: 0.2cm;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
