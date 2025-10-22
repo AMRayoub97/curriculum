@@ -23,6 +23,7 @@
         border: solid black 4px;
         padding: 0.5cm;
         background-color: rgba(241, 239, 239, 0.489);
+        box-shadow: black 9px 9px 9px;
     }
     main{
         padding-left: 1cm;
@@ -68,7 +69,7 @@
         padding: 0.5cm 2cm 0.5cm;
         font-family: "plastic";
         font-size: larger;
-        box-shadow: white 8px 8px 8px;
+        box-shadow: white 5px 5px 5px;
     }
     .perfil{
         display: flex;
@@ -115,14 +116,13 @@
         border-radius: 2px;
     }
     .FooterTitulo h1{
+        background-color: var( --color-background);
+        color: var( --color-letras);
         display: flex;
-        align-items: center;
+        border: solid;
+        width: 100%;
         justify-content: center;
-        background-color: var(--color-background);
-        color: var(--color-letra);
-        height: 2cm;
-        width: 9cm;
-        border-radius: 10px;
+        padding: 0.2cm;
     }
     .enlaces strong{
         background-color: var(--color-background);
@@ -157,6 +157,21 @@
         padding: 0.2cm;
         text-decoration: none;
     }
+    #PRACTICAS a{
+        background-color: var( --color-letras);
+        color: var( --color-background);
+        display: flex;
+        border: solid black;
+        border-radius: 2px;
+        width: 4.3cm;
+        height: 0.7cm;
+        padding: 0.2cm;
+        text-decoration: none;
+    }
+    #contacto a{
+        color: white;
+        text-decoration: none;
+    }
 
     /*::before*/
     main h2::before{
@@ -183,4 +198,14 @@
     }
     #PROYECTOS a:hover{
         transform: scale(1.2);
+    }
+    #PRACTICAS a:hover{
+        transform: scale(1.2);
+    }
+    #estilos:hover{
+        transform: scale(1.2);
+        background-color: var(--color-letras);
+        color: var(--color-background);
+        border-radius: 4px;
+        box-shadow: white 5px 5px 20px;
     }
