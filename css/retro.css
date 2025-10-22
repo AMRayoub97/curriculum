@@ -25,6 +25,12 @@
         padding-bottom: 1cm;
     }
 
+    /*fuente de dafont.com*/
+    @font-face {
+        font-family: 'plastic';
+        src: url('./fonts/iconoplastic.ttf') format('truetype');
+    }
+
     /*selectore de clase*/
     .estilo{
         display: flex;
@@ -39,6 +45,12 @@
     .enlaces{
         display: flex;
         height: 1.5cm;
+    }
+    .nombre{
+        background-color: white;
+        padding: 0.5cm 2cm 0.5cm;
+        font-family: "plastic";
+        font-size: larger;
     }
     
 
@@ -76,8 +88,8 @@
         border-radius: 10px;
     }
     .enlaces a{
-        background-color: black;
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         margin: 0.2cm;
         padding: 0.2cm;
         text-decoration: none;
@@ -85,4 +97,5 @@
         justify-content: center;
         align-items: center;
         border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;
     }

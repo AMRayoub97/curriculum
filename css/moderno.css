@@ -50,7 +50,7 @@
             gap: 10px;
             padding: 10px;
         }
-        .enlaces a{
+        .enlaces strong{
             border: solid black 2px;
             border-radius: 10px;
             background-color: rgb(141, 35, 211);
@@ -61,6 +61,9 @@
             justify-content: center;
             align-items: center;
             padding: 10px;
+        }
+        .enlaces a{
+            text-decoration: none
         }
         .perfil{
             display: flex;
@@ -294,7 +297,7 @@
             color: blueviolet;
             transform: scale(1.15); 
         }
-        .enlaces a:hover{
+        .enlaces strong:hover{
             background-color:  white;
             color: blueviolet;
             transform: scale(1.15); 
