@@ -214,10 +214,10 @@
             margin-top: 1cm;
             text-align: center;
             padding: 10px;
-            background-color: rgb(247, 246, 247);
-            color: rgb(181, 15, 197);
+            background-color: blueviolet;
+            color: white;
             font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+            box-shadow: 10px 5px 5px rgb(255, 255, 255);
         }
         #contacto a{
             text-decoration: none;
