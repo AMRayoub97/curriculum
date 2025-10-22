@@ -68,9 +68,11 @@
         padding: 0.5cm 2cm 0.5cm;
         font-family: "plastic";
         font-size: larger;
+        box-shadow: white 8px 8px 8px;
     }
     .perfil{
         display: flex;
+        margin: 2cm;
     }
 
     /*selectore de id*/
@@ -80,7 +82,7 @@
         justify-content: center;
         margin: 0.5cm;
         height: 1cm;
-        width: 2cm;
+        width: 2.3cm;
         background-color: black;
         color: white;
         text-decoration: none;
@@ -138,17 +140,33 @@
         text-decoration: none;
     }
     main h1{
-        background-color: var( --color-backrgound);
+        background-color: var( --color-background);
         color: var( --color-letras);
         display: flex;
         border: solid;
         justify-content: center;
         padding: 0.2cm;
     }
+    #PROYECTOS a{
+        background-color: var( --color-letras);
+        color: var( --color-background);
+        display: flex;
+        border: solid black;
+        border-radius: 2px;
+        width: 2.2cm;
+        padding: 0.2cm;
+        text-decoration: none;
+    }
 
     /*::before*/
     main h2::before{
         content: "🠮";
+    }
+
+    /*SELECTORES ::after*/
+    #Arriba::after{
+        content: "↑";
+        padding: 0cm 0.2cm;
     }
 
     /*::hover*/
@@ -159,4 +177,10 @@
         border: solid white;
         margin:  0cm 0.5cm;
         box-shadow: white 3px 3px 3px;
+    }
+    #Arriba:hover{
+        transform: scale(1.2);
+    }
+    #PROYECTOS a:hover{
+        transform: scale(1.2);
     }
