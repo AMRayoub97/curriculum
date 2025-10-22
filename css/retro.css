@@ -8,20 +8,28 @@
         --color-background: white;
         --color-letras: black;
     }
+    
     /*selectores de elementos*/
     html {
         background-color: var(--color-background);
         padding-left: 3cm;
-        padding-top: 2cm;
         padding-right: 3cm;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        border: solid black 4px;
+        padding: 0.5cm;
+        background-color: rgba(241, 239, 239, 0.489);
+    }
+    main{
+        padding-left: 1cm;
     }
     header{
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        background-color: gray;
+        background-color: black;
         padding: 1cm;
     }
     footer{
