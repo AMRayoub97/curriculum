@@ -221,10 +221,53 @@
             border-radius: 10px;
 
         }
+        #PROYECTOS h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid black 2px;
+            border-radius: 10px;
+            width: 15cm;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+            font-family: "LAUGHTER";
+            box-shadow: 10px 5px 5px rgb(44, 42, 37);
+        }
+        #PROYECTOS p{
+            display: flex;
+            border: solid white 1px;
+            padding: 0.3cm;
+            font-size: larger;
+        }
+        #PROYECTOS a{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            padding-left: 0.3cm;
+            background-color: blueviolet;
+            border: white solid 1px;
+            border-radius: 7px;
+            color: white;
+            width: 3cm;
+            height: 1cm;
+            text-decoration: none;
+        }
+
+        /*Pseudo-Clases :not( )*/
+        #PROYECTOS:not(h2){
+            padding-left: 1cm;
+        }
 
         /*SELECTORES ::before*/
         #EDUCATION h2:before{
             content: "*";
+        }
+        #PROYECTOS h2::before{
+            content: "↱";
+            margin-right: 0.4cm;
         }
 
         /*SELECTORES ::after*/
