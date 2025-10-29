@@ -1,322 +1,314 @@
-        /*charset*/
-        @charset "UTF-8";
+/*charset*/
+@charset "UTF-8";
 
-       /* SELECTORE universal*/
-        * {
-            color: white;
-        }
+/* UNIVERSAL */
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
 
-        /* SELECTORE de ELEMENTOS*/
-        html{
-            padding-left: 1.5cm;
-            font-size: larger;
-            background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-52339.jpg?semt=ais_hybrid&w=740&q=80");
-            background-size: 100%;
-        }
-        body{
-            border: 5px solid black;
-            border-radius: 10px;
-            padding: 1cm;
-        }
-        footer{
-            background-color: blueviolet;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
+/* ELEMENTOS BASE */
+html {
+    font-size: 18px;
+    padding: 1rem;
+    background-image: url("https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-52339.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
 
-        /*fuente de dafont.com*/
-        @font-face {
-            font-family: 'LAUGHTER';
-            src: url('./fonts/LAUGHTER.ttf') format('truetype');
-        }
+body {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: rgb(50, 0, 100) 8px 8px 15px;
+}
 
-        /*SELECTORES DE CLASES */
-        .nombre{
-            text-align: center;
-            border: solid black 2px;
-            font-size: large;
-            height: 1.7cm;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.7cm;
-            font-family: "LAUGHTER";
-             background-color: rgb(141, 35, 211);
-             color: white;
-        }
-        .enlaces{
-           display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            padding: 10px;
-        }
-        .perfil{
-            display: flex;
-            flex-direction: row;
-            padding: 2cm;
-        }
-        
-        .perfil p{
-            font-size: large;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-        .estilo{
-            display: flex;
-            justify-content: end;
-            padding-bottom: 0.5cm;
-        }
+footer {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
 
-        /*SELECTORES de ID*/
-        #Arriba{
-            display: flex;
-            height: 1cm;
-            width: 2.5cm;
-            border: solid black 2px;
-            text-decoration: none;
-            justify-content: center;
-            align-items: center;
-            background-color: blueviolet;
-            color: white;
-            margin: 1cm;
-            box-shadow: rgb(200, 0, 255) 5px 5px 5px;
-        }
-        #estilos{
-            box-shadow: rgb(200, 0, 255) 5px 5px 5px;
-        }
-       
-        /*SELECTORES Elementos hijos*/
-        .enlaces strong{
-            border: solid black 2px;
-            border-radius: 10px;
-            background-color: rgb(141, 35, 211);
-            color: white;
-            text-decoration: none;
-            height: 1cm;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            box-shadow: rgb(200, 0, 255) 5px 5px 5px;
-        }
-        .enlaces a{
-            text-decoration: none
-        }
-        #descripcion h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        .perfil img{
-            border-radius: 50%;
-        }
-        .perfil aside{
-            margin-left: 5cm;
-            border: 4px solid white;
-            border-radius: 7px;
-            padding: 1cm;
-        }
-        #EDUCATION h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #Idiomas h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #PRACTICAS h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #C.Tecnicas h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #C.PERSONALES h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #contacto h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            margin-top: 1cm;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(255, 255, 255);
-        }
-        #contacto a{
-            text-decoration: none;
-            color: blue;
-        }
-        .estilo input{
-            width: 2.5cm;
-            background-color: blueviolet;
-            color: white;
-            font-size: large;
-            height: 1cm;
-            border-radius: 10px;
+/* FUENTE PERSONALIZADA */
+@font-face {
+    font-family: 'LAUGHTER';
+    src: url('./fonts/LAUGHTER.ttf') format('truetype');
+}
 
-        }
-        #PROYECTOS h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: solid black 2px;
-            border-radius: 10px;
-            width: 15cm;
-            margin: auto;
-            text-align: center;
-            padding: 10px;
-            background-color: blueviolet;
-            color: white;
-            font-family: "LAUGHTER";
-            box-shadow: 10px 5px 5px rgb(44, 42, 37);
-        }
-        #PROYECTOS p{
-            display: flex;
-            border: solid rgb(7, 7, 7) 2px;
-            padding: 0.3cm;
-            font-size: larger;
-        }
-        #PROYECTOS a{
-            display: flex;
-            justify-items: center;
-            align-items: center;
-            padding-left: 0.3cm;
-            background-color: blueviolet;
-            border: white solid 1px;
-            border-radius: 7px;
-            color: white;
-            width: 3cm;
-            height: 1cm;
-            text-decoration: none;
-        }
-        #PRACTICAS a{
-            display: flex;
-            justify-items: center;
-            align-items: center;
-            padding-left: 0.3cm;
-            background-color: blueviolet;
-            border: white solid 1px;
-            color: white;
-            width: 5cm;
-            height: 1cm;
-            text-decoration: none;
-        }
+/* CLASES */
+.nombre {
+    text-align: center;
+    border: solid black 2px;
+    font-family: "LAUGHTER";
+    background-color: rgb(141, 35, 211);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: rgb(200, 0, 255) 5px 5px 5px;
+}
 
-        /*Pseudo-Clases :not( )*/
-        #PROYECTOS:not(h2){
-            padding-left: 1cm;
-        }
+/* ENLACES HEADER */
+.enlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 0.8rem;
+    margin: 1rem auto;
+    width: 100%;
+}
 
-        /*SELECTORES ::before*/
-        #EDUCATION h2:before{
-            content: "*";
-        }
-        #PROYECTOS h2::before{
-            content: "↱";
-            margin-right: 0.4cm;
-        }
+.enlaces a {
+    text-decoration: none;
+}
 
-        /*SELECTORES ::after*/
-        #Arriba::after{
-            content: "↑";
-            padding-left: 0.1cm;
-        }
+.enlaces strong {
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: rgb(141, 35, 211);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    box-shadow: rgb(200, 0, 255) 4px 4px 5px;
+    transition: all 0.2s ease-in-out;
+}
 
-        /*SELECTORES :hover*/
-        #Arriba:hover{
-            background-color:  white;
-            color: blueviolet;
-            transform: scale(1.15); 
-        }
-        .enlaces strong:hover{
-            background-color:  white;
-            color: blueviolet;
-            transform: scale(1.15);
-            margin: 0cm 0.5cm
-        }
-        .estilo input:hover{
-            background-color:  white;
-            color: blueviolet;
-            transform: scale(1.15); 
-        }
-        #PRACTICAS a:hover{
-            transform: scale(1.2);
-        }
-        
+.enlaces strong:hover {
+    background-color: white;
+    color: blueviolet;
+    transform: scale(1.1);
+    margin: 0 0.3rem;
+}
+
+/* PERFIL */
+.perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.perfil aside {
+    border: 4px solid white;
+    border-radius: 7px;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+/* TEXTO PERFIL */
+.perfil p {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.4;
+}
+
+/* BOTÓN DE ESTILOS */
+.estilo {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+
+.estilo input {
+    width: 6rem;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(200, 0, 255) 5px 5px 5px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.estilo input:hover {
+    background-color: white;
+    color: blueviolet;
+    transform: scale(1.1);
+}
+
+/* BOTÓN VOLVER ARRIBA */
+#Arriba {
+    display: flex;
+    height: 2.5rem;
+    width: 7rem;
+    border: solid black 2px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: rgb(200, 0, 255) 5px 5px 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#Arriba::after {
+    content: " ↑";
+    padding-left: 0.3rem;
+}
+
+#Arriba:hover {
+    background-color: white;
+    color: blueviolet;
+    transform: scale(1.1);
+}
+
+/* TITULARES DE SECCIONES */
+section h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: blueviolet;
+    color: white;
+    font-family: "LAUGHTER";
+    box-shadow: 8px 5px 5px rgb(44, 42, 37);
+}
+
+/* PROYECTOS Y PRÁCTICAS */
+#PROYECTOS p {
+    border: solid rgb(7, 7, 7) 2px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#PROYECTOS a,
+#PRACTICAS a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border: white solid 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+#PRACTICAS a:hover,
+#PROYECTOS a:hover {
+    transform: scale(1.15);
+}
+
+/* CONTACTO */
+#contacto a {
+    text-decoration: none;
+    color: #d6d6ff;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    html {
+        padding: 0.8rem;
+    }
+    body {
+        padding: 1.5rem;
+    }
+    .nombre {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+    section h1 {
+        font-size: 1.3rem;
+        max-width: 90%;
+    }
+}
+
+/* Móviles medianos */
+@media (max-width: 768px) {
+    html {
+        padding: 0.5rem;
+    }
+    .perfil {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .perfil aside {
+        margin: 0;
+        width: 90%;
+    }
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        margin: 0.5rem 0;
+    }
+    .nombre {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    section h1 {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 480px) {
+    body {
+        border-width: 2px;
+        padding: 1rem;
+        box-shadow: none;
+    }
+    .nombre {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+    .enlaces strong {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
+    }
+    #Arriba {
+        width: 6rem;
+        height: auto;
+    }
+    .perfil img {
+        width: 150px;
+        height: 150px;
+    }
+    section h1 {
+        font-size: 1rem;
+        max-width: 95%;
+        padding: 0.5rem;
+    }
+}
