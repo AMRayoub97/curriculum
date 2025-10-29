@@ -1,211 +1,306 @@
-   /*charset*/
-   @charset "UTF-8";
+/*charset*/
+@charset "UTF-8";
 
-   /*selectore universal*/
-    * {
-        color: black;
-    }
+/*universal*/
+* {
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
 
-    /*crear variables*/
-    :root{
-        --color-background: white;
-        --color-letras: black;
-    }
-    
-    /*selectores de elementos*/
+/*variables*/
+:root {
+    --color-background: white;
+    --color-letras: black;
+}
+
+/*estructura base*/
+html {
+    background-color: var(--color-background);
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    border: solid black 4px;
+    padding: 1rem;
+    background-color: rgba(241, 239, 239, 0.489);
+    box-shadow: black 9px 9px 9px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*contenedores*/
+main {
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    padding: 1rem;
+}
+
+/*fuente externa*/
+@font-face {
+    font-family: 'plastic';
+    src: url('./fonts/iconoplastic.ttf') format('truetype');
+}
+
+/*clases generales*/
+.estilo {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+}
+
+.FooterTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*nav mejor estructurado*/
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.enlaces a {
+    text-decoration: none;
+}
+
+.enlaces strong {
+    background-color: var(--color-background);
+    color: var(--color-letras);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    box-shadow: gray 3px 3px 5px;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.enlaces strong:hover {
+    transform: scale(1.1);
+    background-color: var(--color-letras);
+    color: var(--color-background);
+    border: solid white;
+    box-shadow: white 3px 3px 3px;
+}
+
+.nombre {
+    background-color: var(--color-background);
+    padding: 1rem 2rem;
+    font-family: "plastic";
+    font-size: 1.3rem;
+    box-shadow: white 5px 5px 5px;
+    text-align: center;
+}
+
+/*perfil*/
+.perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.perfil > aside {
+    border: solid black 2px;
+    padding: 1rem;
+    flex: 1 1 300px;
+}
+
+.perfil > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*botón de cambio de estilo*/
+#estilos {
+    background-color: var(--color-background);
+    color: var(--color-letras);
+    font-size: 1rem;
+    box-shadow: black 5px 5px 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+/*botón volver arriba*/
+#Arriba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    height: 2rem;
+    width: 6rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+#Arriba::after {
+    content: " ↑";
+    padding-left: 0.3rem;
+}
+
+/*títulos*/
+main h1 {
+    background-color: var(--color-background);
+    color: var(--color-letras);
+    border: solid;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+main h2::before {
+    content: "🠮";
+}
+
+/*botones de proyectos y prácticas*/
+#PROYECTOS a,
+#PRACTICAS a {
+    background-color: var(--color-letras);
+    color: var(--color-background);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    text-decoration: none;
+    margin: 0.4rem 0;
+    transition: transform 0.2s;
+}
+
+#PROYECTOS a:hover,
+#PRACTICAS a:hover,
+#Arriba:hover,
+#estilos:hover {
+    transform: scale(1.1);
+}
+
+/*footer*/
+#contacto a {
+    color: white;
+    text-decoration: none;
+}
+
+.FooterTitulo h1 {
+    background-color: var(--color-background);
+    color: var(--color-letras);
+    display: flex;
+    border: solid;
+    width: 100%;
+    justify-content: center;
+    padding: 0.2cm;
+}
+
+/*medidores*/
+meter {
+    width: 100%;
+    height: 1rem;
+}
+
+/*RESPONSIVE DESIGN*/
+
+/*Tablets*/
+@media (max-width: 1024px) {
     html {
-        background-color: var(--color-background);
-        padding-left: 3cm;
-        padding-right: 3cm;
-        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
     }
-    body{
-        border: solid black 4px;
-        padding: 0.5cm;
-        background-color: rgba(241, 239, 239, 0.489);
-        box-shadow: black 9px 9px 9px;
+    body {
+        border-width: 2px;
     }
-    main{
-        padding-left: 1cm;
+    .nombre {
+        font-size: 1.1rem;
+        padding: 0.8rem;
     }
-    header{
-        display: flex;
+    header {
+        padding: 0.8rem;
+    }
+}
+
+/*Móviles*/
+@media (max-width: 768px) {
+    html {
+        padding: 0.5rem;
+    }
+    .perfil {
         flex-direction: column;
-        justify-items: center;
         align-items: center;
-        background-color: black;
-        padding: 1cm;
     }
-    footer{
-        background-color: gray;
-        padding-left: 1cm;
-        padding-top: 0.5cm;
-        padding-bottom: 1cm;
-    }
-
-    /*fuente de dafont.com*/
-    @font-face {
-        font-family: 'plastic';
-        src: url('./fonts/iconoplastic.ttf') format('truetype');
-    }
-
-    /*selectore de clase*/
-    .estilo{
-        display: flex;
-        justify-content: end;
-        padding-bottom: 0.5cm;
-    }
-    .FooterTitulo{
-        display: flex;
+    .enlaces {
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-    .enlaces{
-        display: flex;
-        height: 1.5cm;
-    }
-    .nombre{
-        background-color: var(--color-background);
-        padding: 0.5cm 2cm 0.5cm;
-        font-family: "plastic";
-        font-size: larger;
-        box-shadow: white 5px 5px 5px;
-    }
-    .perfil{
-        display: flex;
-        margin: 2cm;
-    }
-
-    /*selectore de id*/
-    #Arriba{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0.5cm;
-        height: 1cm;
-        width: 2.3cm;
-        background-color: black;
-        color: white;
-        text-decoration: none;
-        border-radius: 10px;
-    }
-    #estilos{
-        background-color: var(--color-background);
-        color: var(--color-letras);
-        font-size: larger;
-        box-shadow: black 5px 5px 5px;
-    }
-    
-
-    /*elementos de hijos*/
-    .perfil > aside{
-        margin-left: 5cm;
-        border: solid black 2px;
         height: auto;
-        width: auto;
-        padding: 1cm;
+        margin-top: 1rem;
     }
-    .perfil > img{
-        border-radius: 50%;
-    }
-    .estilo input{
-        height: 1cm;
-        width: 2cm;
-        background-color: gray;
-        color: white;
-        border-radius: 2px;
-    }
-    .FooterTitulo h1{
-        background-color: var( --color-background);
-        color: var( --color-letras);
-        display: flex;
-        border: solid;
+    .nombre {
+        font-size: 1rem;
         width: 100%;
-        justify-content: center;
-        padding: 0.2cm;
     }
-    .enlaces strong{
-        background-color: var(--color-background);
-        color: var(--color-letra);
-        margin: 0.2cm;
-        padding: 0.2cm;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 4px;
-        box-shadow: gray 5px 5px 5px;
+    #PROYECTOS a,
+    #PRACTICAS a {
+        width: auto;
+        padding: 0.5rem;
     }
-    .enlaces a{
-        text-decoration: none;
+    #Arriba {
+        width: 5rem;
+        height: auto;
     }
-    main h1{
-        background-color: var( --color-background);
-        color: var( --color-letras);
-        display: flex;
-        border: solid;
-        justify-content: center;
-        padding: 0.2cm;
-    }
-    #PROYECTOS a{
-        background-color: var( --color-letras);
-        color: var( --color-background);
-        display: flex;
-        border: solid black;
-        border-radius: 2px;
-        width: 2.2cm;
-        padding: 0.2cm;
-        text-decoration: none;
-    }
-    #PRACTICAS a{
-        background-color: var( --color-letras);
-        color: var( --color-background);
-        display: flex;
-        border: solid black;
-        border-radius: 2px;
-        width: 4.3cm;
-        height: 0.7cm;
-        padding: 0.2cm;
-        text-decoration: none;
-    }
-    #contacto a{
-        color: white;
-        text-decoration: none;
-    }
+}
 
-    /*::before*/
-    main h2::before{
-        content: "🠮";
+/*Teléfonos pequeños*/
+@media (max-width: 480px) {
+    body {
+        box-shadow: none;
     }
-
-    /*SELECTORES ::after*/
-    #Arriba::after{
-        content: "↑";
-        padding: 0cm 0.2cm;
+    header,
+    footer {
+        padding: 0.5rem;
     }
-
-    /*::hover*/
-    .enlaces strong:hover{
-        transform: scale(1.3);
-        background-color: var(--color-letra);
-        color: var(--color-background);
-        border: solid white;
-        margin:  0cm 0.5cm;
-        box-shadow: white 3px 3px 3px;
+    .nombre {
+        font-size: 0.9rem;
     }
-    #Arriba:hover{
-        transform: scale(1.2);
+    .enlaces strong {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
     }
-    #PROYECTOS a:hover{
-        transform: scale(1.2);
+    .perfil aside {
+        padding: 0.5rem;
     }
-    #PRACTICAS a:hover{
-        transform: scale(1.2);
+    img {
+        max-width: 100%;
+        height: auto;
     }
-    #estilos:hover{
-        transform: scale(1.2);
-        background-color: var(--color-letras);
-        color: var(--color-background);
-        border-radius: 4px;
-        box-shadow: white 5px 5px 20px;
-    }
+}
