@@ -1,0 +1,134 @@
+{
+  "titulo": "currículum",
+  "boton_estilo": "retro",
+  "nombre": "AYOUB AMMARI DESARROLLADOR WEB",
+  "menu": {
+    "descripcion": "DESCRIPCIÓN",
+    "educacion": "EDUCACIÓN",
+    "idiomas": "IDIOMAS",
+    "practicas": "PRACTICAS",
+    "proyectos": "PROYECTOS",
+    "competencias_tecnicas": "COMPETENCIAS TÉCNICAS",
+    "competencias_personales": "COMPETENCIAS PERSONALES",
+    "contacto": "CONTACTO"
+  },
+  "perfil": {
+    "titulo": "PERFIL PROFESIONAL",
+    "descripcion": "Soy Ayoub, estudiante de Desarrollo de Aplicaciones Web (2DAW) y desarrollador full-stack con experiencia en Laravel, Vue.js, PHP, Java, HTML, CSS y JavaScript. He participado en diversos proyectos personales y académicos, aplicando buenas prácticas de desarrollo y gestionando versiones a través de GitHub. Además, cuento con experiencia en entornos de contenedores con Docker. Domino cuatro idiomas y busco integrarme en equipos profesionales donde pueda aportar mis conocimientos, asumir retos técnicos y contribuir al desarrollo de soluciones web eficientes y escalables",
+    "ir_arriba": "Ir arriba"
+  },
+  "educacion": [
+    {
+      "titulo": "desarrollo de Aplicaciones WEB",
+      "fecha": "2024-Actualidad",
+      "instituto": "IES Maria Enriquez-Gandia",
+      "pagina": "Maria Enriquez"
+    },
+    {
+      "titulo": "SELECTIVIDAD",
+      "fecha": "2023-2024",
+      "instituto": "Princessa-GRANADA"
+    },
+    {
+      "titulo": "POOL42",
+      "fecha": "AGO2023-SEP2023",
+      "instituto": "1337-KHOURIBGA",
+      "pagina": "1337Khouribga"
+    },
+    {
+      "titulo": "Bachillerato en Ciencias - Especialidad en Fisica",
+      "fecha": "2020-2023",
+      "instituto": "IBN YASSIN -KHOURIBGA"
+    }
+  ],
+  "idiomas": [
+    {
+      "nombre": "Español",
+      "nivel": "alto",
+      "certificado": "B2.2"
+    },
+    {
+      "nombre": "Inglés",
+      "nivel": "alto",
+      "certificado": "A2"
+    },
+    {
+      "nombre": "Arabe",
+      "nivel": "lengua materna"
+    },
+    {
+      "nombre": "Francés",
+      "nivel": "medio"
+    }
+  ],
+  "practicas": {
+    "empresa": "Vicky Foods - Gandia",
+    "fecha": "May2025-Jun2025",
+    "tareas": [
+      "Desarrollo y mantenimiento de aplicaciones internas con Sencha,PHP, JavaScript y SQL",
+      "Gestión de accesos para empleados y resolución de errores en elback-end",
+      "Traducción de páginas del español al francés usando PHP y JSON"
+    ],
+    "pagina": "Pagina de la empresa"
+  },
+  "proyectos": [
+    {
+      "titulo": "Portafolio Personal – Ayoub Ammari",
+      "descripcion": "Este portafolio muestra mis proyectos como desarrollador web full-stack, incluyendo aplicaciones web, landing pages y sistemas interactivos. Cada proyecto refleja mis habilidades en desarrollo front-end y back-end, con un enfoque en diseño responsivo, usabilidad y experiencia de usuario moderna. El portafolio también incluye enlaces directos a los proyectos y sus codigos, permitiendo a los visitantes explorar mi trabajo de manera práctica y profesional.",
+      "herramientas": ["HTML5","CSS3"],
+      "pagina": "Ir al pagina"
+    },
+    {
+      "titulo": "AMR COCHES",
+      "descripcion": "AMR COCHES es una aplicación web para la compra y venta de vehículos, con funcionalidades de registro e inicio de sesión de usuarios, gestión de datos mediante cookies, y manejo completo de operaciones de compra, venta y subida de coches.",
+      "herramientas": {
+        "backend": "PhP",
+        "frontend": "HTML5,CSS"
+      }
+    },
+    {
+      "titulo": "Sharea(en proceso)",
+      "descripcion": "Sharea es una aplicación similar a Instagram que permite crear una cuenta, seguir a otras personas, compartir publicaciones y añadir comentarios. La aplicación está casi terminada (85%); faltan aspectos de seguridad, privacidad y manejo de cookies.",
+      "herramientas": {
+        "backend": "PhP,SQL,JSON",
+        "frontend": "HTML5,CSS,JavaScript",
+        "framework": "Laravel,Bootstrap"
+      }
+    },
+    {
+      "titulo": "Tienda Online de Múltiples Productos (Front-End)",
+      "descripcion": "Desarrollo del front-end de una tienda en línea con HTML, CSS y JavaScript, que permite crear cuentas, iniciar sesión y comprar productos, cargando los datos dinámicamente desde una API en un servidor local, con diseño responsivo y navegación intuitiva",
+      "herramientas": ["HTML5","CSS","JavaScript","API","JSON"],
+      "pagina": "Ir al pagina"
+    },
+    {
+      "titulo": "Mi curriculum",
+      "descripcion": "Desarrollo de un currículum digital interactivo usando HTML, CSS y JavaScript, que presenta de manera clara mi perfil profesional, formación, experiencia y proyectos, destacando mis competencias técnicas y habilidades multilingües.",
+      "herramientas": ["HTML5","CSS","JavaScript"],
+      "pagina": "Ir al pagina"
+    },
+    {
+      "titulo": "FilmsWorld – Web de películas y series",
+      "descripcion": "Desarrollé una web interactiva que permite explorar películas y series utilizando la API de TMDb. Incluye búsqueda, filtrado, visualización de detalles y tarjetas de películas dinámicas. El proyecto está construido con HTML, CSS y JavaScript, ofreciendo una experiencia moderna y responsiva orientada al cine.",
+      "herramientas": ["HTML5","CSS","js","API"],
+      "pagina": "Ir al pagina"
+    }
+  ],
+  "competencias_tecnicas": {
+    "lenguajes": ["Java","PHP","JavaScript","HTML","CSS"],
+    "bases_datos": ["MariaDB","SQLite","MySQL"],
+    "frameworks": ["Laravel"],
+    "herramientas": ["Git","GitHub","Docker"]
+  },
+  "competencias_personales": {
+    "Multilingue": 8,
+    "Resolucion_de_problemas": 8,
+    "Trabajo_en_equipo": 8
+  },
+  "contacto": {
+    "telefono": "+34604238347",
+    "email": "amrayoub959@gmail.com",
+    "github": "AMRayoub97",
+    "ciudad": "Gandia"
+  }
+}

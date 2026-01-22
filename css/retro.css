@@ -61,6 +61,20 @@ footer {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+.estilo button{
+    padding: 1rem 0.5rem;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    transition: 1s ease;
+}
+.estilo button:hover{
+    transform: scale(1.2);
 }
 
 .FooterTitulo {
@@ -153,7 +167,7 @@ footer {
 }
 
 /*botón volver arriba*/
-#Arriba {
+.btn-arriba {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +181,7 @@ footer {
     transition: transform 0.2s;
 }
 
-#Arriba::after {
+.btn-arriba::after {
     content: " ↑";
     padding-left: 0.3rem;
 }

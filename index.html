@@ -4,284 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="AyoubAmmari">
-    <meta name="description" content="currículum">
-    <meta name="keywords" content="curriculum, cv">
-    <meta name="robots" content="index, nofollow">
-    <meta name="theme-color" content="#0000ff   ">
-    <link rel="icon" type="image/x-icon" href="cv.jpg">
-    <title>currículum</title>
-    <link rel="icon" href="data:image/png;base64,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">
+    <meta name="description" content="currículum de Ayoub Ammari">
+    <link rel="icon" type="image/x-icon" href="./img/cv.jpg">
+    <title id="page-title">currículum</title>
     <link id="estilo" rel="stylesheet" href="./css/retro.css">
 </head>
 <body>
-     <div class="estilo">
-            <input type="button" name="estilo" id="estilos" value="retro" onclick="action()">
-        </div>
+    <div class="estilo">
+        <input type="button" id="estilos" value="retro" onclick="action()">
+        <button onclick="cambiarIdioma('es')">Español</button>
+        <button onclick="cambiarIdioma('en')">English</button>
+    </div>
+
     <header>
-       
         <div class="nombre">
-            <strong>AYOUB AMMARI <br> DESARROLLADOR WEB </strong>
+            <strong id="main-name">AYOUB AMMARI <br> DESARROLLADOR WEB </strong>
         </div>
         <hr>
         <nav class="enlaces">
-            <a href="#descripcion"><strong>DESCRIPCIÓN</strong></a>
-            <a href="#EDUCATION"><strong>EDUCACIÓN</strong></a>
-            <a href="#Idiomas"><strong>IDIOMAS</strong></a>
-            <a href="#PRACTICAS"><strong>PRACTICAS</strong></a>
-            <a href="#PROYECTOS"><strong>PROYECTOS</strong></a>
-            <a href="#C.Tecnicas"><strong>COMPETENCIAS TÉCNICAS</strong></a>
-            <a href="#C.PERSONALES"><strong>COMPETENCIAS PERSONALES</strong></a>
-            <a href="#contacto"><strong>CONTACTO</strong></a>
+            <a href="#descripcion"><strong data-key="menu.descripcion">DESCRIPCIÓN</strong></a>
+            <a href="#EDUCATION"><strong data-key="menu.educacion">EDUCACIÓN</strong></a>
+            <a href="#Idiomas"><strong data-key="menu.idiomas">IDIOMAS</strong></a>
+            <a href="#PRACTICAS"><strong data-key="menu.practicas">PRACTICAS</strong></a>
+            <a href="#PROYECTOS"><strong data-key="menu.proyectos">PROYECTOS</strong></a>
+            <a href="#C.Tecnicas"><strong data-key="menu.competencias_tecnicas">COMPETENCIAS TÉCNICAS</strong></a>
+            <a href="#C.PERSONALES"><strong data-key="menu.competencias_personales">COMPETENCIAS PERSONALES</strong></a>
+            <a href="#contacto"><strong data-key="menu.contacto">CONTACTO</strong></a>
         </nav>
     </header>
+
     <main>
         <section id="descripcion">
-            <h1>PERFIL PROFESIONAL</h1>
+            <h1 data-key="perfil.titulo">PERFIL PROFESIONAL</h1>
             <article class="perfil">
-                <img src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-social-600nw-1677509740.jpg" height="200" width="200">
+                <img src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-social-600nw-1677509740.jpg" alt="Perfil" height="200" width="200">
                 <aside>
-                    <p>Soy Ayoub, estudiante de Desarrollo de Aplicaciones Web (2DAW) y desarrollador full-stack con experiencia en Laravel, Vue.js, PHP, Java, HTML, CSS y JavaScript. He participado en diversos proyectos personales y académicos, aplicando buenas prácticas de desarrollo y gestionando versiones a través de GitHub. Además, cuento con experiencia en entornos de contenedores con Docker. Domino cuatro idiomas y busco integrarme en equipos profesionales donde pueda aportar mis conocimientos, asumir retos técnicos y contribuir al desarrollo de soluciones web eficientes y escalables</p>
+                    <p id="perfil-texto">
+                        Soy Ayoub, estudiante de Desarrollo de Aplicaciones Web (2DAW) y desarrollador full-stack con experiencia en Laravel, Vue.js, PHP, Java, HTML, CSS y JavaScript.
+                    </p>
                 </aside>
             </article>
-            <a id="Arriba" href="#">Ir arriba</a>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
             <hr>
         </section>
+
         <section id="EDUCATION">
-            <h1>EDUCACIÓN</h1>
-            <article>
-                <h2>desarrollo de Aplicaciones WEB</h2>
-                <date>2024-Actualidad</date>
-                <br>
-                <small><img src="./img/maria.png" style="width: 3%; height: 3%;"><strong>instituto:</strong>IES Maria Enriquez-Gandia</small>
-                <br>
-                <small><strong>pagina:</strong><a href="https://portal.edu.gva.es/mariaenriquez/es/inici-es/" target="_blank">Maria Enriquez</a></small>
-            </article>
-            <hr>
-            <article>
-                <h2>SELECTIVIDAD</h2>
-                <date>2023-2024</date>
-                <br>
-                <small><strong>instituto:</strong>Princessa-GRANADA</small>
-            </article>
-            <hr>
-            <article>
-                <h2>POOL42</h2>
-                <date>AGO2023-SEP2023</date>
-                <br>
-                <small><strong>instituto:</strong>1337-KHOURIBGA</small>
-                <br>
-                <small><strong>pagina:</strong><a href="https://1337.ma/en/khouribga/" target="_blank">1337Khouribga</a></small>
-            </article>
-            <hr>
-            <article>
-                <h2>Bachillerato en Ciencias - Especialidad en Fisica</h2>
-                <date>2020-2023</date>
-                <br>
-                <small><strong>instituto:</strong>IBN YASSIN -KHOURIBGA</small>
-            </article>
-            <a id="Arriba" href="#">Ir arriba</a>
+            <h1 data-key="menu.educacion">EDUCACIÓN</h1>
+            <div id="container-educacion">
+                </div>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
             <hr>
         </section>
+
         <section id="Idiomas">
-            <h1>IDIOMAS</h1>
-            <article>
-                <ul>
-                    <li><strong><img src="./img/spain.webp" style="width: 2%; height: 2%;">Español</strong></li>
-                    <ul>
-                        <li><strong>nivel:</strong>alto</li>
-                        <li><strong>certificado:</strong>B2.2</li>
-                    </ul>
-                </ul>
-                <hr>
-            </article>
-            <article>
-                <ul>
-                    <li><strong><img src="./img/ik.jpg" style="width: 2%; height: 2%;">Inglés</strong></li>
-                    <ul>
-                        <li><strong>nivel:</strong>alto</li>
-                        <li><strong>certificado:</strong>A2</li>
-                    </ul>
-                </ul>
-                <hr>
-            </article>
-            <article>
-                <ul>
-                    <li><strong><img src="./img/morocco.svg" style="width: 2%; height: 2%;">Arabe</strong></li>
-                    <li><strong>nivel:</strong>lengua materna</li>
-                </ul>
-                <hr>
-            </article>
-            <article>
-                <ul>
-                    <li><strong><img src="./img/fr.jpg" style="width: 2%; height: 2%;">Francés</strong></li>
-                    <li><strong>nivel:</strong>medio</li>
-                </ul>
-                <hr>
-            </article>
-            <a id="Arriba" href="#">Ir arriba</a>
+            <h1 data-key="menu.idiomas">IDIOMAS</h1>
+            <div id="container-idiomas">
+                </div>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
         </section>
+
         <section id="PRACTICAS">
-            <h1>PRACTICAS</h1>
-            <h2>Vicky Foods - Gandia</h2>
-            <date>May2025-Jun2025</date>
-            <ul>
-                <li>Desarrollo y mantenimiento de aplicaciones internas con Sencha,PHP, JavaScript y SQL</li>
-                <li>Gestión de accesos para empleados y resolución de errores en elback-end</li>
-                <li>Traducción de páginas del español al francés usando PHP y JSON</li>
-            </ul>
-            <a href="https://www.vickyfoods.es/en/home/" target="_blank">Pagina de la empresa</a>
+            <h1 data-key="menu.practicas">PRACTICAS</h1>
+            <h2 id="practicas-empresa">Vicky Foods - Gandia</h2>
+            <date id="practicas-fecha">May2025-Jun2025</date>
+            <ul id="practicas-tareas"></ul>
+            <a id="practicas-link" href="https://www.vickyfoods.es/en/home/" target="_blank">Pagina de la empresa</a>
             <br>
-            
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
         </section>
-        <a id="Arriba" href="#">Ir arriba</a>
+
         <section id="PROYECTOS">
-            <h1>PROYECTOS</h1>
-            <article>
-                <h2>Portafolio Personal – Ayoub Ammari:</h2>
-                <p><strong>Descripción:</strong>Este portafolio muestra mis proyectos como desarrollador web full-stack, incluyendo aplicaciones web, landing pages y sistemas interactivos. Cada proyecto refleja mis habilidades en desarrollo front-end y back-end, con un enfoque en diseño responsivo, usabilidad y experiencia de usuario moderna. El portafolio también incluye enlaces directos a los proyectos y sus codigos, permitiendo a los visitantes explorar mi trabajo de manera práctica y profesional.</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                </ul>
-                <a href="https://amrayoub97.github.io/portafolio/" target="_blank">Ir al pagina</a>
-            <br>
-            </article>
-            <hr>
-
-            <article>
-                <h2>AMR COCHES:</h2>
-                <p><strong>Descripción:</strong>AMR COCHES es una aplicación web para la compra y venta de vehículos, con funcionalidades de registro e inicio de sesión de usuarios, gestión de datos mediante cookies, y manejo completo de operaciones de compra, venta y subida de coches.</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li><strong>BackEnd:</strong>PhP</li>
-                    <li><strong>FrontEnd:</strong>HTML5,CSS</li>
-                </ul>
-            </article>
-            <hr>
-            <article>
-                <h2>Sharea(en proceso):</h2>
-                <p><strong>Descripción:</strong> Sharea es una aplicación similar a Instagram que permite crear una cuenta, seguir a otras personas, compartir publicaciones y añadir comentarios.<br>La aplicación está casi terminada (85%); faltan aspectos de seguridad, privacidad y manejo de cookies.</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li><strong>BackEnd:</strong>PhP,SQL,JSON.</li>
-                    <li><strong>FrontEnd:</strong>HTML5,CSS,JavaScript.</li>
-                    <li><strong>FrameWork:</strong>Laravel,Bootstrap.</li>
-                </ul>
-            </article>
-            <hr>
-        
-            <article>
-                <h2>Tienda Online de Múltiples Productos (Front-End):</h2>
-                <p><strong>Descripción:</strong>Desarrollo del front-end de una tienda en línea con HTML, CSS y JavaScript, que permite crear cuentas, iniciar sesión y comprar productos, cargando los datos dinámicamente desde una API en un servidor local, con diseño responsivo y navegación intuitiva</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>API</li>
-                    <li>JSON</li>
-                </ul>
-                <a href="https://amrayoub97.github.io/AMRshop-Front-End/views/home.html" target="_blank">Ir al pagina</a>
-            <br>
-            </article>
-            <hr>
-
-            <article>
-                <h2>Mi curriculum:</h2>
-                <p><strong>Descripción:</strong>Desarrollo de un currículum digital interactivo usando HTML, CSS y JavaScript, que presenta de manera clara mi perfil profesional, formación, experiencia y proyectos, destacando mis competencias técnicas y habilidades multilingües.</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <a href="https://amrayoub97.github.io/curriculum/" target="_blank">Ir al pagina</a>
-            <br>
-            </article>
-            <hr>
-
-            <article>
-                <h2>FilmsWorld – Web de películas y series:</h2>
-                <p><strong>Descripción:</strong>Desarrollé una web interactiva que permite explorar películas y series utilizando la API de TMDb. Incluye búsqueda, filtrado, visualización de detalles y tarjetas de películas dinámicas. El proyecto está construido con HTML, CSS y JavaScript, ofreciendo una experiencia moderna y responsiva orientada al cine.</p>
-                <h3>Herramientas:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>js</li>
-                    <li>API</li>
-                </ul>
-                <a href="https://amrayoub97.github.io/filmsWorld/" target="_blank">Ir al pagina</a>
-            <br>
-            </article>
-            <hr>
+            <h1 data-key="menu.proyectos">PROYECTOS</h1>
+            <div id="container-proyectos">
+                </div>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
         </section>
-        <a id="Arriba" href="#">Ir arriba</a>
+
         <section id="C.Tecnicas">
-            <h1>COMPETENCIAS TECNICAS</h1>
-            <table border="2px">
-                <tr>
-                    <td colspan="2">COMPETENCIAS TÉCNICAS</td>
-                </tr>
-                <tr>
-                    <td>Lenguajes de programación:</td>
-                    <td>Java, PHP, JavaScript,HTML, CSS</td>
-                </tr>
-                <tr>
-                    <td>Bases de datos:</td>
-                    <td>MariaDB,SQLite,MySQL</td>
-                </tr>
-                <tr>
-                    <td>FrameWorks:</td>
-                    <td>Laravel</td>
-                </tr>
-                <tr>
-                    <td>Herramientas:</td>
-                    <td>Git,GitHub, Docker</td>
-                </tr>
-            </table>
-            <a id="Arriba" href="#">Ir arriba</a>
+            <h1 data-key="menu.competencias_tecnicas">COMPETENCIAS TECNICAS</h1>
+            <table border="2px" id="tabla-tecnica" style="width: 100%; text-align: left;">
+                </table>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
             <hr>
         </section>
+
         <section id="C.PERSONALES">
-            <h1>COMPETENCIAS PERSONALES</h1>
-            <label for="Multilingue">Multilingue</label>
-            <meter id="Multilingue" value="8" min="0" max="10"></meter><br>
-            <label for="Problemas">Resolución de problemas</label>
-            <meter id="Problemas" value="8" min="0" max="10"></meter><br>
-            <label for="equipo">Trabajo en equipo global+</label>
-            <meter id="equipo" value="8" min="0" max="10"></meter><br>
-            <a id="Arriba" href="#">Ir arriba</a>
+            <h1 data-key="menu.competencias_personales">COMPETENCIAS PERSONALES</h1>
+            <div id="container-personales">
+                </div>
+            <a class="btn-arriba" href="#" data-key="perfil.ir_arriba">Ir arriba</a>
         </section>
     </main>
+
     <footer>
         <section id="contacto">
-            <div class="FooterTitulo">
-                <h1>contacto</h1>
-            </div>
+            <h1 data-key="menu.contacto">contacto</h1>
             <ul>
-                <li>num:<a href="tel:+34604238347">+34604238347</a><img src="./img/phone.png" style="width: 2%; height: 2%;"></li>
-                <li>gmail:<a href="mailto:amrayoub959@gmail.com?subject=Oferta de trabajo 1&body=Hola, ...:">amrayoub959@gmail.com</a><img src="./img/gmail.png" style="width: 2%; height: 2%;"></li>
-                <li>github:<a href="https://github.com/AMRayoub97">AMRayoub97</a></li>
-                <li>ciudad:Gandia</li>
+                <li>num: <a href="tel:+34604238347" id="cont-tel">+34604238347</a> <img src="./img/phone.png" style="width: 15px;"></li>
+                <li>gmail: <a href="mailto:amrayoub959@gmail.com" id="cont-email">amrayoub959@gmail.com</a> <img src="./img/gmail.png" style="width: 15px;"></li>
+                <li>github: <a href="https://github.com/AMRayoub97" id="cont-github" target="_blank">AMRayoub97</a></li>
+                <li id="cont-ciudad">ciudad: Gandia</li>
             </ul>
-            <a id="Arriba" href="#">Ir arriba</a>
         </section>
     </footer>
-    <script>
-        const boton = document.getElementById('estilos');
-        const theme = document.getElementById('estilo');
 
-        function action() {
-            if (boton.value === "retro") {
-                theme.href = './css/moderno.css';
-                boton.value = "moderno";
-            } else {
-                theme.href = './css/retro.css';
-                boton.value = "retro";
-            }
-        }
-       
-    </script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
