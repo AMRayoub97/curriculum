@@ -1,0 +1,134 @@
+{
+  "title": "curriculum",
+  "style_button": "rétro",
+  "name": "AYOUB AMMARI DÉVELOPPEUR WEB",
+  "menu": {
+    "description": "DESCRIPTION",
+    "education": "FORMATION",
+    "languages": "LANGUES",
+    "internships": "STAGES",
+    "projects": "PROJETS",
+    "technical_skills": "COMPÉTENCES TECHNIQUES",
+    "personal_skills": "COMPÉTENCES PERSONNELLES",
+    "contact": "CONTACT"
+  },
+  "profile": {
+    "title": "PROFIL PROFESSIONNEL",
+    "description": "Je suis Ayoub, étudiant en Développement d'Applications Web (2DAW) et développeur full-stack avec une expérience en Laravel, Vue.js, PHP, Java, HTML, CSS et JavaScript. J'ai participé à divers projets personnels et académiques, en appliquant les bonnes pratiques de développement et la gestion de versions via GitHub. De plus, j'ai de l'expérience avec les environnements de conteneurs Docker. Je maîtrise quatre langues et je cherche à intégrer des équipes professionnelles où je pourrai apporter mes connaissances, relever des défis techniques et contribuer au développement de solutions web efficaces et évolutives.",
+    "go_up": "Retour en haut"
+  },
+  "education": [
+    {
+      "title": "Développement d'Applications Web",
+      "date": "2024-Présent",
+      "institute": "IES Maria Enriquez-Gandia",
+      "page": "Maria Enriquez"
+    },
+    {
+      "title": "SÉLECTIVITÉ",
+      "date": "2023-2024",
+      "institute": "Princessa-GRANADA"
+    },
+    {
+      "title": "POOL42",
+      "date": "AOÛT2023-SEPT2023",
+      "institute": "1337-KHOURIBGA",
+      "page": "1337Khouribga"
+    },
+    {
+      "title": "Baccalauréat Scientifique - Spécialité Physique",
+      "date": "2020-2023",
+      "institute": "IBN YASSIN -KHOURIBGA"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Espagnol",
+      "level": "avancé",
+      "certificate": "B2.2"
+    },
+    {
+      "name": "Anglais",
+      "level": "avancé",
+      "certificate": "A2"
+    },
+    {
+      "name": "Arabe",
+      "level": "langue maternelle"
+    },
+    {
+      "name": "Français",
+      "level": "intermédiaire"
+    }
+  ],
+  "internships": {
+    "company": "Vicky Foods - Gandia",
+    "date": "Mai 2025-Juin 2025",
+    "tasks": [
+      "Développement et maintenance d'applications internes avec Sencha, PHP, JavaScript et SQL",
+      "Gestion des accès pour les employés et résolution d'erreurs back-end",
+      "Traduction de pages de l'espagnol vers le français en utilisant PHP et JSON"
+    ],
+    "page": "Site de l'entreprise"
+  },
+  "projects": [
+    {
+      "title": "Portfolio Personnel – Ayoub Ammari",
+      "description": "Ce portfolio présente mes projets en tant que développeur web full-stack, incluant des applications web, des pages de destination et des systèmes interactifs. Chaque projet reflète mes compétences en développement front-end et back-end, avec un accent sur le design réactif, l'ergonomie et une expérience utilisateur moderne.",
+      "tools": ["HTML5","CSS3"],
+      "page": "Voir la page"
+    },
+    {
+      "title": "AMR COCHES",
+      "description": "AMR COCHES est une application web d'achat et de vente de véhicules, avec des fonctionnalités d'inscription et de connexion, gestion des données via cookies et gestion complète des opérations d'achat, de vente et de mise en ligne de voitures.",
+      "tools": {
+        "backend": "PHP",
+        "frontend": "HTML5,CSS"
+      }
+    },
+    {
+      "title": "Sharea (en cours)",
+      "description": "Sharea est une application similaire à Instagram qui permet de créer un compte, de suivre d'autres personnes, de partager des publications et d'ajouter des commentaires. L'application est terminée à 85%.",
+      "tools": {
+        "backend": "PHP,SQL,JSON",
+        "frontend": "HTML5,CSS,JavaScript",
+        "framework": "Laravel,Bootstrap"
+      }
+    },
+    {
+      "title": "Boutique en ligne multi-produits (Front-End)",
+      "description": "Développement front-end d'une boutique en ligne permettant la création de comptes et l'achat de produits, avec des données chargées dynamiquement depuis une API.",
+      "tools": ["HTML5","CSS","JavaScript","API","JSON"],
+      "page": "Voir la page"
+    },
+    {
+      "title": "Mon Curriculum Vitae",
+      "description": "Développement d'un CV numérique interactif présentant mon profil, ma formation et mes projets de manière claire.",
+      "tools": ["HTML5","CSS","JavaScript"],
+      "page": "Voir la page"
+    },
+    {
+      "title": "FilmsWorld – Site de films et séries",
+      "description": "Site interactif permettant d'explorer des films et séries en utilisant l'API TMDb. Inclut la recherche, le filtrage et l'affichage dynamique des fiches.",
+      "tools": ["HTML5","CSS","js","API"],
+      "page": "Voir la page"
+    }
+  ],
+  "technical_skills": {
+    "languages": ["Java","PHP","JavaScript","HTML","CSS"],
+    "databases": ["MariaDB","SQLite","MySQL"],
+    "frameworks": ["Laravel"],
+    "tools": ["Git","GitHub","Docker"]
+  },
+  "personal_skills": {
+    "Multilingue": 8,
+    "Résolution_de_problèmes": 8,
+    "Travail_d'équipe": 8
+  },
+  "contact": {
+    "phone": "+34604238347",
+    "email": "amrayoub959@gmail.com",
+    "github": "AMRayoub97",
+    "city": "Gandia"
+  }
+}
