@@ -147,4 +147,13 @@ async function cambiarIdioma(idioma) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => cambiarIdioma('es'));
+// Función que se llama desde los botones
+function guardarIdioma(nuevoIdioma) {
+    localStorage.setItem('idioma', nuevoIdioma);
+    cambiarIdioma(nuevoIdioma);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const idiomaInicial = localStorage.getItem('idioma') || 'es';
+    cambiarIdioma(idiomaInicial);
+});
