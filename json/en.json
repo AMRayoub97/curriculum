@@ -76,7 +76,8 @@
       "title": "Personal Portfolio – Ayoub Ammari",
       "description": "This portfolio showcases my projects as a full-stack web developer, including web applications, landing pages, and interactive systems. Each project highlights my skills in front-end and back-end development, with a focus on responsive design, usability, and modern user experience. The portfolio also includes direct links to the projects and their code, allowing visitors to explore my work practically and professionally.",
       "tools": ["HTML5","CSS3"],
-      "page": "Go to page"
+      "page": "Go to page",
+      "url": "https://amrayoub97.github.io/portafolio/"
     },
     {
       "title": "AMR CARS",
@@ -99,7 +100,8 @@
       "title": "Multi-Product Online Store (Front-End)",
       "description": "Front-end development of an online store using HTML, CSS, and JavaScript, allowing account creation, login, and product purchases, with dynamic data loaded from an API on a local server, featuring responsive design and intuitive navigation.",
       "tools": ["HTML5","CSS","JavaScript","API","JSON"],
-      "page": "Go to page"
+      "page": "Go to page",
+      "url": "https://amrayoub97.github.io/AMRshop-Front-End/"
     },
     {
       "title": "My Curriculum",
@@ -111,7 +113,8 @@
       "title": "FilmsWorld – Movie and Series Web",
       "description": "I developed an interactive web that allows exploring movies and series using the TMDb API. Includes search, filtering, detail views, and dynamic movie cards. The project is built with HTML, CSS, and JavaScript, offering a modern and responsive cinema-oriented experience.",
       "tools": ["HTML5","CSS","js","API"],
-      "page": "Go to page"
+      "page": "Go to page",
+      "url": "https://amrayoub97.github.io/filmsWorld/"
     }
   ],
   "technical_skills": {

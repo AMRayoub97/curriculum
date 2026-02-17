@@ -110,7 +110,7 @@ async function cambiarIdioma(idioma) {
                     ? (proy.herramientas || proy.tools).map(h => `<li>${h}</li>`).join('')
                     : Object.entries(proy.herramientas || proy.tools).map(([k, v]) => `<li><strong>${k}:</strong> ${v}</li>`).join('')
                 }</ul>
-                ${proy.pagina || proy.page ? `<a href="#" target="_blank">${proy.pagina || proy.page}</a>` : ''}
+                ${proy.pagina || proy.page ? `<a href="${proy.url || proy.link || '#'}" target="_blank" rel="noopener noreferrer">${proy.pagina || proy.page}</a>` : ''}
             </article><hr>
         `).join('');
 

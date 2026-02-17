@@ -76,7 +76,8 @@
       "title": "معرض الأعمال الشخصي – أيوب عماري",
       "description": "يعرض هذا المعرض مشاريعي كمطور ويب، بما في ذلك تطبيقات الويب وصفحات الهبوط والأنظمة التفاعلية، مع التركيز على التصميم المتجاوب وتجربة المستخدم.",
       "tools": ["HTML5","CSS3"],
-      "page": "زيارة الصفحة"
+      "page": "زيارة الصفحة",
+      "url": "https://amrayoub97.github.io/portafolio/"
     },
     {
       "title": "AMR COCHES",
@@ -99,7 +100,8 @@
       "title": "متجر إلكتروني متعدد المنتجات (Front-End)",
       "description": "تطوير واجهة متجر إلكتروني تتيح الشراء وتسجيل الدخول مع تحميل البيانات ديناميكياً من API.",
       "tools": ["HTML5","CSS","JavaScript","API","JSON"],
-      "page": "زيارة الصفحة"
+      "page": "زيارة الصفحة",
+      "url": "https://amrayoub97.github.io/AMRshop-Front-End/"
     },
     {
       "title": "سيرتي الذاتية التفاعلية",
@@ -111,7 +113,8 @@
       "title": "FilmsWorld – موقع للأفلام والمسلسلات",
       "description": "موقع تفاعلي لاستكشاف الأفلام باستخدام API الخاص بـ TMDb، يتضمن البحث والترشيح وعرض التفاصيل.",
       "tools": ["HTML5","CSS","js","API"],
-      "page": "زيارة الصفحة"
+      "page": "زيارة الصفحة",
+      "url": "https://amrayoub97.github.io/filmsWorld/"
     }
   ],
   "technical_skills": {
